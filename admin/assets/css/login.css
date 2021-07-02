@@ -1,0 +1,57 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: Arial;
+}
+.body{
+    background-image: url("../images/anh3D.jpeg") ;
+    height: 100vh;
+}
+#login-font{
+    position: fixed;
+    text-align: center;
+    top: 17%;
+    left: 35%;
+    background-color:rgb(255, 255, 255, 0.5);
+    border-radius: 10px;
+    width: 30vw;
+    height: 70vh;
+    line-height: 50px;
+}
+#img{
+
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-top: 20px;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif ;
+}
+.input{
+    position: relative;
+    color: #aaa;
+    font-size: 16px;
+    width: 70%;
+    margin: auto;
+}
+i{
+    position: absolute;
+    color: gray;
+    left: 10%;;
+    top: 35%;
+}
+.input input {
+    width: 250px;
+    height: 40px;
+    background: #fcfcfc;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #ccc, 0 10px 15px #ebebeb inset;
+    text-indent: 32px;
+}
+.btn{
+    background-color: #3894ad;
+}
